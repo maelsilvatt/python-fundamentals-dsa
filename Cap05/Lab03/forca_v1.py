@@ -14,10 +14,10 @@ from ast import literal_eval
 # Imports clear to keep the terminal clean
 from os import system
 
-# Permite transições mais suaves entre interfaces
+# Imports sleep to make transtitions smoother
 from time import sleep
 
-# Códigos ANSI para alterar a cor da saída
+# ANSI color codes for outputs
 ANSI_CYAN = '\033[1;36m'
 ANSI_RED = '\033[1;31m'
 ANSI_YELLOW = '\033[1;33m'
